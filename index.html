@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0px;
+            background-color: rgb(235, 230, 223);
+        }
+        .navBar{
+            
+            height: 10vh;
+            background-color: black;
+            
+        }
+        .item{
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+            left:500px;
+            color:white;
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .itemf{
+            display: inline-block;
+            color:white;
+            margin:10px;
+            position: relative;
+            left:250px;
+            background-color: black;
+        }
+        .content{
+            height: 70vh;
+            width:70vw;
+            background-color: white;
+            position: relative;
+            left:200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .image{
+            height:20vh;
+            width: 10vw;
+            position: relative;
+            left:50px;
+            bottom:-50px;
+            background-image: url("https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            background-size: 128px;
+            background-repeat: no-repeat;
+        }
+        .vision{
+            width:25vw;
+            position: relative;
+            left:220px;
+            top:-130px;
+            background-color: white;
+        }
+        .personal{
+            margin: 10px;
+            background-color: white;
+            
+        }
+        .personal b{
+            font-size: 18px;
+            background-color: white;
+        }
+        .personal span{
+            background-color: white;
+        }
+        .skills{
+            height: 30vh;
+            width: 30vw;
+            background-color: white;
+            position: relative;
+            top:-130px;
+            left:50px;
+        }
+        
+        p{
+
+        }
+        .lan{
+           background-color: rgb(70, 127, 234);
+            height: 8px;
+            margin: 5px;
+            
+        }
+        #html{
+            width: 25vw ;
+        }
+        #css{
+            width:20vw;
+        }
+        
+        #php{
+            width:15vw;
+        }
+        
+        #js{
+            width:27vw;
+        }
+        .part1{
+            width:50px;
+            height: 9px;
+            background-color: aquamarine;
+            position: relative;
+            left:325px;
+            top:-13px;
+        }
+        .part2{
+            
+            width:120px;
+            height: 9px;
+            background-color: aquamarine;
+            position: relative;
+            left:260px;
+            top:-13px;
+        }
+        .part3{
+            
+            width:190px;
+            height: 9px;
+            background-color: aquamarine;
+            position: relative;
+            left:190px;
+            top:-13px;
+        }
+        .part4{
+            
+            width:30px;
+            height: 9px;
+            background-color: aquamarine;
+            position: relative;
+            left:350px;
+            top:-13px;
+        }
+        .about{
+            width: 25vw;
+            position: relative;
+            left:500px;
+            top: -450px;
+            background-color: white;
+        }
+        footer{
+            height: 8vh;
+            width: 100vw;
+            background-color: black;
+            position: relative;
+            bottom:-55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navBar">
+        <h1 class="itemf" style="font-family:  Arial, Helvetica, sans-serif;">DevFolio</h1>
+        <div class="item" style="font-family:  Arial, Helvetica, sans-serif;">Home</div>
+        <div class="item" style="text-decoration: underline; font-family: Arial, Helvetica, sans-serif;">About</div>
+        <div class="item">service</div>
+        <div class="item">work</div>
+        <div class="item">blog</div>
+        <div class="item">Drop Down</div>
+        <div class="item">Contact</div>
+    </div>
+    <br>
+
+    <div class="content">
+        <div class="image">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="vision">
+            <p class="personal"><b>Name</b> :<span>Morgan Freeman</span> </p>
+            <p class="personal"><b>Profile</b> :<span>Full Stack Developer</span> </p>
+            <p class="personal"><b>Email</b> :<span>morgan@gmail.com</span> </p>
+            <p class="personal"><b>Phone</b> :<span>(617) 557-0089</span></p>
+        </div>
+    <div class="skills">
+       <b class="title" style="background-color: white; ">Skill</b>
+       <p  class="name" style="background-color: white;" >HTML 85%</p>
+       <div class="lan" id="html"> </div>
+       <div class="part1"></div>
+       <p class="name" style="background-color: white;">CSS 75%</p>
+       <div class="lan" id="css">  </div>
+       <div class="part2"></div>
+       <p class="name"style="background-color: white;">PHP 50%</p>
+       <div class="lan" id="php"> </div>
+       <div class="part3"></div>
+       <p class="name"style="background-color: white;">JAVASCRIPT 90%</p>
+       <div class="lan" id="js"></div>
+       <div class="part4"></div>
+    </div>
+    
+    <div class="about">
+        <div class="upper" style="background-color: white;">
+            <h2 style="background-color: white; text-decoration: underline;">About Me </h2>
+            <br>
+            <article style="background-color: white;">
+                Hello! My name is Jordan, and I'm a passionate adventurer at heart. By day, I work as a software engineer, crafting elegant code and solving complex problems. By night, I’m an avid stargazer, always on the lookout for constellations and celestial events. a serene river. Nature is my sanctuary, and I love capturing its beauty through photography            </article>
+        </div>
+        <br>
+        <br>
+        <div class="lower" style="background-color: white;">
+          <article style="background-color: white;">
+            In my free time, you'll often find me exploring the great outdoors, whether it's
+             together we've documented countless breathtaking landscapes.
+
+          </article>  
+        </div>
+    </div>
+    </div>
+    <footer>
+
+    </footer>
+    
+    
+</body>
+</html>
